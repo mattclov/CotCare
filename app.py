@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 
-# Declare a Flask app
+# Declaration
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
@@ -13,10 +13,10 @@ def main():
     # If a form is submitted
     if request.method == "POST":
         
-        # Unpickle classifier
+        # Unpickle=
         clf = joblib.load("D:\STEM\Hackathon\Git\CotCare\clf.pkl")
         
-        # Get values through input bars
+        # Get input values
         Month = request.form.get("Month")
         Temp = request.form.get("Temp")
         
@@ -31,6 +31,6 @@ def main():
         
     return render_template("web.html", output = prediction)
 
-# Running the app
+# Run the app
 if __name__ == '__main__':
     app.run(debug = True)
