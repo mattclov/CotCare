@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hospital Bed Usage Prediction</title>
+    </head>
+    
+    <body>
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            Month: <input type="number" name="Month", placeholder="Enter month (number form)" required/>
+            <br><br>
+            Temp: <input type="number" name="Temp", placeholder="Enter temperature (celsius)" required/>
+            <br><br>
+            <button value="Submit">Run</button>
+        </form>
+        <p style="text-align: center;">{{ output }}</p>
+    </body>
+</html>
