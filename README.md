@@ -13,3 +13,7 @@
  guimaker.py: Map
  model.py: Prep AI model
  site_link.txt: Link to site
+
+A few things to note:
+- The greedy algorithm works, but requires a specialized hardware that we do not have
+- The program still works without the greedy algorithm
