@@ -1,8 +1,8 @@
 # patients  = ["Patient Code", Latest Treating Time, Estimated Completion Time]
 
-patients = [["P1", 0, 6],
-              ["P2", 3, 4],
-              ["P3", 1, 2],
+patients = [["P1", 0, 2],
+              ["P2", 3, 5],
+              ["P3", 1, 8],
               ["P4", 5, 8],
               ["P5", 5, 7],
               ["P6", 8, 9]
